@@ -1,4 +1,3 @@
--- Create a stored procedure to list all tables in the current database
 DELIMITER //
 
 CREATE PROCEDURE list_all_tables()
@@ -28,5 +27,5 @@ END //
 
 DELIMITER ;
 
--- Call the procedure
 CALL list_all_tables();
+
